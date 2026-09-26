@@ -1,0 +1,87 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+}
+
+#log {
+padding-right: 350px;
+margin-left: 50px;
+}
+.hdr {
+    display: flex;
+    background-color: #1b1b2f;
+    height: 80px;
+}
+
+header > h2{
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    justify-self: left;
+}
+
+.man {
+    display: flex;
+    height: 500px;
+    background-image: url(imagenes/banner.png);
+    background-size: cover;
+    flex-direction: column;
+}
+.man > h3 {
+    color: #e63946;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.sad{
+    color: white;
+    margin-top: 0;
+    margin-left: 50px;
+
+}
+.man > h1{
+    width: 200px;
+}
+.man > h4{
+    width: 550px;
+}
+.man > button{
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #e63946;
+    border: none;
+    color: white;
+}
+#sub {
+    color: black;
+    justify-self: center;   
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.sec div {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+}
+
+.imagen{
+    height: 190px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.mid{
+    color: gray;
+}
+
+p{
+   margin-left: 10px;
+   margin-top: 0;
+}
